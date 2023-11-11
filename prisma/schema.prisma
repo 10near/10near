@@ -7,8 +7,9 @@ datasource db {
   url = env("DATABASE_URL")
 }
 
-model mainbox {
+model mailbox {
   id String @id @default(uuid())
   createdAt DateTime @default(now())
+  name String
   content String
 }
