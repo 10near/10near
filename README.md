@@ -2,9 +2,7 @@
 
 This git repository is for 10near research group/project contain website/apis
 
-
-Project status is **paused** because of some conflict
-
+project status is "50% chance to continue according because conflict is ended"
 
 ### The "Stack"
 - NEXT.js
