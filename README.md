@@ -1,17 +1,14 @@
-# 10NEAR
+# 10NEAR Research Group
 
-This git repository is for 10near research group/project contain website/apis
+Welcome to the 10near research group/project repository, where we explore innovative websites and APIs.
 
-project status is "50% chance to continue according because conflict is ended"
+**Project Status:** There's a "50% chance to continue" as conflicts have been resolved.
 
-### The "Stack"
+### The Stack
 - NEXT.js
 - Tailwind CSS
-- TypeScript( disable typesafe and linter)
+- TypeScript (typesafe and linter disabled)
 - Cockroach DB
 - Prisma
 
-
-## btw fate is supreme
-
-
+Remember, fate is supreme. 🚀
