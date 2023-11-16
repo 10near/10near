@@ -1,15 +1,4 @@
-# 10NEAR Research Group
+# 10NEAR - website
 
-Welcome to the 10near research group/project repository, where we explore innovative websites and APIs.
+> Welcome to the 10near website project repository
 
-**Project Status:** Lets go on J6
-
-
-### The Stack
-- NEXT.js
-- Tailwind CSS
-- TypeScript (typesafe and linter disabled)
-- Cockroach DB
-- Prisma
-
-Remember, fate is supreme. 🚀
