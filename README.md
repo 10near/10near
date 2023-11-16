@@ -2,7 +2,8 @@
 
 Welcome to the 10near research group/project repository, where we explore innovative websites and APIs.
 
-**Project Status:** There's a "50% chance to continue" as conflicts have been resolved.
+**Project Status:** Lets go on J6
+
 
 ### The Stack
 - NEXT.js
