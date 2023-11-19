@@ -1,9 +1,14 @@
-import Head from "next/head";
+import Head from 'next/head';
 
-const PageHead = ({ title, description }) => (
+interface PageHeadProps {
+  title: string;
+  description?: string;
+}
+
+const PageHead: React.FC<PageHeadProps> = ({ title, description = "The 10near project" }) => (
   <Head>
-    <title>{title || "10near project"}</title>
-    <meta name="description" content={description || "The 10near project"} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
   </Head>
 );
 
