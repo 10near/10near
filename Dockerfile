@@ -8,6 +8,5 @@ RUN npm install -g pnpm && \
     pnpm install && \
     pnpm build
 
-EXPOSE 80
 
-CMD ["pnpm", "start", "-p", "80"]
+CMD ["pnpm", "start", "-p", "80", "--hostname", "0.0.0.0"]

@@ -4,7 +4,7 @@ const prisma = new PrismaClient();
 
 export default async (req, res) => {
   try {
-    const { content, name = "anonymous" } = req.query;
+    const { content } = req.query;
 
     if (req.method === "POST") {
       const mail = await prisma.mailbox.create({
