@@ -1,5 +1,7 @@
 import { useState } from "react";
-import Head from "next/head";
+import PageHead from "~/component/Pagehead";
+
+
 
 export default function Mailbox() {
   const [message, setMessage] = useState("");
@@ -35,10 +37,8 @@ export default function Mailbox() {
 
   return (
     <>
-      <Head>
-        <title>10near project</title>
-        <meta name="description" content="The 10near project" />
-      </Head>
+    <PageHead title="10Near - mailbox" />
+
       <main className="flex min-h-screen w-full flex-col items-center justify-center bg-gradient-to-r from-pink-900 to-blue-900 py-4 text-gray-100">
         <div className="flex h-screen w-full items-center justify-center">
           <div className="form-control rounded-md border-2 border-base-300 bg-gray-700 bg-opacity-40 p-4 shadow-md">
