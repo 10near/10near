@@ -52,7 +52,7 @@ export default function Mailbox() {
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
             <div className="p-2 text-bold">
-            {statusMessage && <p className={statusMessage.includes("success") ? "text-green-600" : "text-red-600"}>{statusMessage}</p>}
+            {statusMessage && <p className={statusMessage.includes("success") ? "text-gray-200" : "text-red-500"}>{statusMessage}</p>}
             </div>
             <button
               className="btn btn-outline btn-block hover:bg-zinc-200"

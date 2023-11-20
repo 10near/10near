@@ -10,7 +10,7 @@ export default function Home() {
           <div className="hero-content text-center">
             <div className="max-w-md">
               <h1 className="mb-5 text-6xl font-bold lg:text-7xl">10NEAR</h1>
-              <p className="mb-5 text-gray-200">Coming soon</p>
+              <p className="mb-5 text-gray-200">We are cyber security and software developer group</p>
             </div>
           </div>
         </div>
